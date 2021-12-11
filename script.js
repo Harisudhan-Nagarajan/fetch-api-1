@@ -12,8 +12,11 @@ const searchh = async ()=>{
     show(convert,definitions);
   } catch(err){
     let outputelement = document.getElementById("output");
-      outputelement.innerHTML=`<strong>No Result Found for</strong>
-      <h1>${inputvalue}</h1>`;
+      outputelement.innerHTML=
+      `<div id="err">
+      <strong>No Result Found for</strong>
+       <h2>${inputvalue}</h2>
+       <div/>`;
   }
 
 };
