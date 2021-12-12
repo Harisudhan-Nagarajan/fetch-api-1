@@ -47,7 +47,7 @@ function show([{word,phonetics}],definitions){
                 </li>
                 <li>
                  <h5>${definitions[1].definition}</h5>
-                 <p>${definitions[1].example}</p>
+                 <p>"${definitions[1].example}"</p>
                  <p>Synonyms: ${definitions[1].synonyms[0]},${definitions[1].synonyms[1]},${definitions[1].synonyms[2]}</p>
                 </li>
              </ol>
